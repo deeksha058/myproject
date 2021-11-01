@@ -1,0 +1,13 @@
+body{
+    /* background-color: aquamarine; */
+    /* background-image: linear-gradient(red,blue); */
+    background-image: linear-gradient(skyblue, white);
+}
+.main{
+    text-align: center;
+    padding: auto;
+    margin-top: 250px;
+}
+/* .contect{
+    text-align: center;
+} */

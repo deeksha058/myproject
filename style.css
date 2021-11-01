@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/3792712.jpg");
+}
+.c1{
+    font-weight: bold;
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+    /* background-color: aliceblue; */
+  }
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+  }
+  .nav-links ul li a{
+    text-decoration: none;
+  }
+  .c2{
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    margin: 120px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 10px 15px rgba(0,0,0,0.1);
+  }
