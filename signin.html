@@ -7,18 +7,51 @@
     <link rel = "stylesheet" href = "sin.css">
     <title>Document</title>
 </head>
+<style>
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  </style>
 <body>
+ 
     <div class="main">
         <h1 class="c1">SIGN IN</h1>
         <section id= "Contact">
      
             <form action="respond.html" autocomplete="on">
-              <!-- <label for="fname">Enter your name:</label><br> -->
+             
               <input type="text" id="fname" name="fname" placeholder="Enter your Email Address:"><br>
               <label for="lname">                                   </label><br>
               <input type="text" id="lname" name="lname" placeholder="Enter your Password :"><br><br>
-              <!-- <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your message" ></textarea><br>
-              <input type="Submit" placeholder="Submit"> -->
+             
+              <button class="button" formaction="main_part.html">Submit</button>
             </form>
           </section>
     </div>
