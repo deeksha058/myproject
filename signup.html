@@ -7,10 +7,83 @@
     <link rel = "stylesheet" href="sup.css">
     <title>Document</title>
 </head>
+<style>
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  </style>
+
 <body>
-    <div class ="main">
-        <h1 class="c1">HEY, WELCOME TO TINY URL</h1>
-    </div>
+  <h1 class="c1">HEY, WELCOME TO TINY URL</h1>
+  <div>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+  
+      <label for="lname">Enter your EmailAddress:  </label>
+      <input type="text" id="lname" name="lname" placeholder="Enter your Password :"><br>
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="USA">USA</option>
+        <option value="RUSSIA">RUSSIA</option>
+        <option value="INDIA">INDIA</option>
+        <option value="CHINA">CHINA</option>
+        <option value="NEPAl">NEPAl</option>
+      </select>
+
+      <input type="submit" href="main_part.html" value="Submit">
+    </form>
+  </div>
+    <!-- <div class ="main">
+        
+        <section id= "Contact">
+     
+            <form action="respond.html" autocomplete="on">
+              <label for="fname">Enter your name:</label>
+              <input type="text" id="fname" name="fname" placeholder="Enter your name:"><br>
+              <br>
+              <label for="lname">Enter your EmailAddress:  </label>
+              <input type="text" id="lname" name="lname" placeholder="Enter your Password :"><br><br>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your message" ></textarea><br>
+              <input type="Submit" placeholder="Submit"> -->
+              <!-- <button>Submit</button>
+            </form>
+          </section>
+       
+    </div> -->
    
 
 </body>
