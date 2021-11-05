@@ -1,10 +1,75 @@
 body {
     background-image: url("https://wallpaperaccess.com/full/3792712.jpg");
+    /* background-image: linear-gradient(180deg, pink, skyblue); */
 }
 .c1{
     font-weight: bold;
+    font-size: 2rem;
 }
+/* .navbar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  align-items: center;
+  height: 90px;
+}
+
+.parallax {
+  background: url(./assets/bgmobile.jpg);
+  height: 300px;
+  width: 100%;
+}
+
+.max-width1 {
+  padding: 80px;
+  padding-left: 15px;
+}
+
+.navbar__items {
+  margin-left: auto;
+  padding: 5px;
+  color: white;
+}
+
+.drp__down {
+  position: flex;
+  display: inline-block;
+}
+
+.drp__down__con {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  z-index: 1;
+  right: 0;
+}
+
+.drp__down__con a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.drp__down__con a:hover {
+  border: 2px solid white;
+}
+
+.drp__down:hover .drp__down__con {
+  display: block;
+} */
 nav{
+  box-sizing: border-box;
     width: 80%;
     position: sticky;
     margin: 20px auto;
@@ -15,8 +80,8 @@ nav{
   .nav-links{
     flex: 1;
     text-align: right;
-    /* background-color: aliceblue; */
-  }
+    /* background-color: aliceblue;*/
+   }
   .nav-links ul li {
     list-style: none;
     display: inline-block;
@@ -25,13 +90,51 @@ nav{
   }
   .nav-links ul li a{
     text-decoration: none;
+  }  
+  
+  .c6{
+    text-align: center;
+    font-size: 4rem;
   }
-  .c2{
-    background: #fff;
-    max-width: 400px;
-    width: 100%;
-    margin: 120px auto;
-    padding: 25px;
-    border-radius: 5px;
-    box-shadow: 3px 10px 15px rgba(0,0,0,0.1);
+  .c7{
+    margin-left: 500px;
+    font-size: 3rem;
+    padding: 20px;
   }
+  .c8{
+    text-align: center;
+    font-size: 3rem;
+  }
+  .button {
+     text-align: center;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .c7:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .button:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .c9{
+    text-align: center;
+  }
+  /* .extra ui li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; */
+    
+  /* } */
