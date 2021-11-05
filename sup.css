@@ -1,6 +1,20 @@
-body{
-    background-color: aquamarine;
+body {
+    background-image: url("https://wallpaperaccess.com/full/3792712.jpg");
+    /* background-image: linear-gradient(180deg, pink, skyblue); */
 }
+.main{
+    background: #fff;
+    /* text-align: center; */
+    max-width: 400px;
+    width: 100%;
+    margin: 120px;
+    margin-left: 530px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 10px 15px rgba(0,0,0,0.1);
+  }
+
 .c1{
     text-align: center;
+    font-size: 3rem;
 }
